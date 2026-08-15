@@ -41,6 +41,9 @@ manifest:
     - name: zmk-num-word
       remote: dhruvinsh
       revision: main
+    - name: zmk-unicode
+      remote: urob
+      revision: v0.3 # Should match ZMK release.
 
   self:
     path: config

@@ -129,7 +129,7 @@
 	    bindings = <&kp A>, <&kp B>, <&kt C>;
         };
 
-	tri-state: tri-state {
+	tri_state: tri_state {
             compatible = "zmk,behavior-tri-state";
             label = "TRI-STATE";
             #binding-cells = <0>;
@@ -201,7 +201,7 @@
             diaeresis { trigger-keys = <QUOTE>; bindings = <&fr_e_diaeresis>; };
         };
 
-        shift-repeat: shift-repeat {
+        shift_repeat: shift_repeat {
             compatible = "zmk,behavior-adaptive-key";
             #binding-cells = <0>;
             bindings = <&sk LSHFT>;
