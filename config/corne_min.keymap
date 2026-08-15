@@ -12,7 +12,6 @@
 #include <behaviors/unicode.dtsi>
 #include <zmk-unicode/keys-extra.h>  // All glyphs except CJK
 #include <zmk-unicode/keys-full.h>   // All glyphs including CJK
-#include <behaviors/num_word.dtsi>
 
 
 #define DEAD1 F21
