@@ -235,19 +235,19 @@
     keymap {
         compatible = "zmk,keymap";
 
-	&uc {
-          default-mode = <UC_MODE_LINUX>;  // Replace with desired input system.
-	  minimum-length = <0>;            // Set to desired minimum input length
-          linux-key = <LC(LS(U))>;         // Overwrite Linux compose key
-          win-compose-key = <RALT>;        // Overwrite WinCompose compose key
-	  &uc UC_LATIN_LETTER_A_WITH_GRAVE  // à/À
-          &uc UC_WINKING_FACE               // 😉
-        };
-
-	&num_word {
-          layers = <1 2 3>;
-          continue-list = <UNDERSCORE MINUS>;
-        };
+// 	&uc {
+//          default-mode = <UC_MODE_LINUX>;  // Replace with desired input system.
+//	  minimum-length = <0>;            // Set to desired minimum input length
+//          linux-key = <LC(LS(U))>;         // Overwrite Linux compose key
+//          win-compose-key = <RALT>;        // Overwrite WinCompose compose key
+//	  &uc UC_LATIN_LETTER_A_WITH_GRAVE  // à/À
+//          &uc UC_WINKING_FACE               // 😉
+//        };
+//
+//	&num_word {
+//          layers = <1 2 3>;
+//          continue-list = <UNDERSCORE MINUS>;
+//        };
 
         Base_0 {
             display-name = "Base";
