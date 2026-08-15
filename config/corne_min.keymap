@@ -141,7 +141,6 @@
             compatible = "zmk,behavior-leader-key";
             #binding-cells = <0>;
             
-	    usb { sequence = <U S B>; bindings = <&out OUT_USB>; };
             ble { sequence = <B L E>; bindings = <&out OUT_BLE>; };
             bt0 { sequence = <B N0>; bindings = <&bt BT_SEL 0>; };
             bt1 { sequence = <B N1>; bindings = <&bt BT_SEL 1>; };
