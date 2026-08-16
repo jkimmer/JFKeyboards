@@ -211,21 +211,21 @@
                 strict-modifiers;
             };
 	};
-//
-//        nav_word: nav_word {
-//            compatible = "zmk,behavior-auto-layer";
-//            #binding-cells = <1>;
-//            continue-list = <LEFT DOWN UP RIGHT PG_DN PG_UP>;
-//            ignore-modifiers;
-//        };
-//
-//        num_word: num_word {
-//            #binding-cells = <0>;
-//            compatible = "zmk,behavior-num-word";
-//            continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
-//            ignore-numbers;
-//        };
-//
+
+        nav_word: nav_word {
+            compatible = "zmk,behavior-auto-layer";
+            #binding-cells = <1>;
+            continue-list = <LEFT DOWN UP RIGHT PG_DN PG_UP>;
+            ignore-modifiers;
+        };
+
+        num_word: num_word {
+            #binding-cells = <0>;
+            compatible = "zmk,behavior-num-word";
+            continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
+            ignore-numbers;
+        };
+
     };
 
     combos { compatible = "zmk,combos"; };
