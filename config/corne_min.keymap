@@ -8,7 +8,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <behaviors/num_word.dtsi>
+//#include <behaviors/num_word.dtsi>
 //#include <behaviors/unicode.dtsi>
 //#include <zmk-unicode/keys-extra.h>  // All glyphs except CJK
 //#include <zmk-unicode/keys-full.h>   // All glyphs including CJK
@@ -226,7 +226,7 @@
 //            ignore-numbers;
 //        };
 //
-//    };
+    };
 
     combos { compatible = "zmk,combos"; };
 

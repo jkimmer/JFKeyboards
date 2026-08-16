@@ -4,10 +4,10 @@ manifest:
       url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
-    - name: urob
-      url-base: https://github.com/urob
-    - name: dhruvinsh
-      url-base: https://github.com/dhruvinsh
+#    - name: urob
+#      url-base: https://github.com/urob
+#    - name: dhruvinsh
+#      url-base: https://github.com/dhruvinsh
   
   projects:
     - name: zmk
@@ -23,27 +23,27 @@ manifest:
     - name: prospector-module
       url: https://github.com/MechboardsLTD/zmk-module
       revision: prospector
-    - name: zmk-auto-layer
-      remote: urob
-      revision: v0.3 # Should match ZMK release.
-    - name: zmk-tri-state
-      remote: dhruvinsh
-      revision: main
-    - name: zmk-leader-key
-      remote: urob
-      revision: v0.3 # Should match ZMK release.
-    - name: zmk-adaptive-key
-      remote: urob
-      revision: v0.3 # Should match ZMK release.
-    - name: zmk-helpers
-      remote: urob
-      revision: v0.3 # Should match ZMK release.  
-    - name: zmk-num-word
-      remote: dhruvinsh
-      revision: main
-    - name: zmk-unicode
-      remote: urob
-      revision: v0.3 # Should match ZMK release.
+#    - name: zmk-auto-layer
+#      remote: urob
+#      revision: v0.3 # Should match ZMK release.
+#    - name: zmk-tri-state
+#      remote: dhruvinsh
+#      revision: main
+#    - name: zmk-leader-key
+#      remote: urob
+#      revision: v0.3 # Should match ZMK release.
+#    - name: zmk-adaptive-key
+#      remote: urob
+#      revision: v0.3 # Should match ZMK release.
+#    - name: zmk-helpers
+#      remote: urob
+#      revision: v0.3 # Should match ZMK release.  
+#    - name: zmk-num-word
+#      remote: dhruvinsh
+#      revision: main
+#    - name: zmk-unicode
+#      remote: urob
+#      revision: v0.3 # Should match ZMK release.
 
   self:
     path: config
