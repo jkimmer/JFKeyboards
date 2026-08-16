@@ -158,47 +158,47 @@
 //            de_ue { sequence = <U E>; bindings = <&de_ue>; };
 //        };
 //
-//        ak_h: ak_h {
-//            compatible = "zmk,behavior-adaptive-key";
-//            #binding-cells = <0>;
-//            bindings = <&kp H>;
-//            
-//	    akt_ah { trigger-keys = <A>; max-prior-idle-ms = <300>; bindings = <&kp U>; };
-//            akt_uh { trigger-keys = <U>; max-prior-idle-ms = <300>; bindings = <&kp A>; };
-//            akt_eh { trigger-keys = <E>; max-prior-idle-ms = <300>; bindings = <&kp O>; };
-//        };
-//
-//        ak_m: ak_m {
-//            compatible = "zmk,behavior-adaptive-key";
-//            #binding-cells = <0>;
-//            bindings = <&kp M>;
-//
-//	    akt_gm { trigger-keys = <G>; max-prior-idle-ms = <300>; bindings = <&kp L>; };
-//            akt_pm { trigger-keys = <P>; max-prior-idle-ms = <300>; bindings = <&kp L>; };
-//        };
-//
-//        // And similarly for VP->VL, PV->LV, BT->BL, TB->LB
-//        ak_g: ak_g {
-//            compatible = "zmk,behavior-adaptive-key";
-//            #binding-cells = <0>;
-//            bindings = <&kp G>;
-//
-//            // Binding two behaviors: JG->JPG
-//            akt_jg { trigger-keys = <J>; max-prior-idle-ms = <300>; bindings = <&kp P &kp G>; };
-//        };
-//
-//	ak_e: ak_e {
-//            compatible = "zmk,behavior-adaptive-key";
-//            #binding-cells = <0>;
-//            bindings = <&kp E>;
-//            dead-keys = <GRAVE CARET APOS QUOTE>;
-//
-//            grave { trigger-keys = <GRAVE>; bindings = <&fr_e_grave>; };
-//            acute { trigger-keys = <APOS>; bindings = <&fr_e_acute>; };
-//            circumflex { trigger-keys = <CARET>; bindings = <&fr_e_circumflex>; };
-//            diaeresis { trigger-keys = <QUOTE>; bindings = <&fr_e_diaeresis>; };
-//        };
-//
+        ak_h: ak_h {
+            compatible = "zmk,behavior-adaptive-key";
+            #binding-cells = <0>;
+            bindings = <&kp H>;
+            
+	    akt_ah { trigger-keys = <A>; max-prior-idle-ms = <300>; bindings = <&kp U>; };
+            akt_uh { trigger-keys = <U>; max-prior-idle-ms = <300>; bindings = <&kp A>; };
+            akt_eh { trigger-keys = <E>; max-prior-idle-ms = <300>; bindings = <&kp O>; };
+        };
+
+        ak_m: ak_m {
+            compatible = "zmk,behavior-adaptive-key";
+            #binding-cells = <0>;
+            bindings = <&kp M>;
+
+	    akt_gm { trigger-keys = <G>; max-prior-idle-ms = <300>; bindings = <&kp L>; };
+            akt_pm { trigger-keys = <P>; max-prior-idle-ms = <300>; bindings = <&kp L>; };
+        };
+
+        // And similarly for VP->VL, PV->LV, BT->BL, TB->LB
+        ak_g: ak_g {
+            compatible = "zmk,behavior-adaptive-key";
+            #binding-cells = <0>;
+            bindings = <&kp G>;
+
+            // Binding two behaviors: JG->JPG
+            akt_jg { trigger-keys = <J>; max-prior-idle-ms = <300>; bindings = <&kp P &kp G>; };
+        };
+
+	ak_e: ak_e {
+            compatible = "zmk,behavior-adaptive-key";
+            #binding-cells = <0>;
+            bindings = <&kp E>;
+            dead-keys = <GRAVE CARET APOS QUOTE>;
+
+            grave { trigger-keys = <GRAVE>; bindings = <&fr_e_grave>; };
+            acute { trigger-keys = <APOS>; bindings = <&fr_e_acute>; };
+            circumflex { trigger-keys = <CARET>; bindings = <&fr_e_circumflex>; };
+            diaeresis { trigger-keys = <QUOTE>; bindings = <&fr_e_diaeresis>; };
+        };
+
 //        shift_repeat: shift_repeat {
 //            compatible = "zmk,behavior-adaptive-key";
 //            #binding-cells = <0>;
