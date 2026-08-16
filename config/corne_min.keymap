@@ -197,7 +197,7 @@
 //            acute { trigger-keys = <APOS>; bindings = <&fr_e_acute>; };
 //            circumflex { trigger-keys = <CARET>; bindings = <&fr_e_circumflex>; };
 //            diaeresis { trigger-keys = <QUOTE>; bindings = <&fr_e_diaeresis>; };
-        };
+//        };
 
         shift_repeat: shift_repeat {
             compatible = "zmk,behavior-adaptive-key";
