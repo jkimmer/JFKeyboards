@@ -187,17 +187,17 @@
             akt_jg { trigger-keys = <J>; max-prior-idle-ms = <300>; bindings = <&kp P &kp G>; };
         };
 
-        ak_e: ak_e {
-            compatible = "zmk,behavior-adaptive-key";
-            #binding-cells = <0>;
-            bindings = <&kp E>;
-            dead-keys = <GRAVE CARET APOS QUOTE>;
-
-            grave { trigger-keys = <GRAVE>; bindings = <&fr_e_grave>; };
-            acute { trigger-keys = <APOS>; bindings = <&fr_e_acute>; };
-            circumflex { trigger-keys = <CARET>; bindings = <&fr_e_circumflex>; };
-            diaeresis { trigger-keys = <QUOTE>; bindings = <&fr_e_diaeresis>; };
-        };
+//        ak_e: ak_e {
+//            compatible = "zmk,behavior-adaptive-key";
+//            #binding-cells = <0>;
+//            bindings = <&kp E>;
+//            dead-keys = <GRAVE CARET APOS QUOTE>;
+//
+//            grave { trigger-keys = <GRAVE>; bindings = <&fr_e_grave>; };
+//            acute { trigger-keys = <APOS>; bindings = <&fr_e_acute>; };
+//            circumflex { trigger-keys = <CARET>; bindings = <&fr_e_circumflex>; };
+//            diaeresis { trigger-keys = <QUOTE>; bindings = <&fr_e_diaeresis>; };
+//        };
 
         shift_repeat: shift_repeat {
             compatible = "zmk,behavior-adaptive-key";
